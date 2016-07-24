@@ -12,9 +12,10 @@
   },
   "keywords": [
     "ebook",
-    "mybook.com",
+    "mybook.com"
   ],
   "author": "MagickKing",
+  "license": "CC0-1.0",
   "bugs": {
     "url": "https://github.com/magickcoding/mybook/issues"
   },
