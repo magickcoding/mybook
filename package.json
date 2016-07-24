@@ -6,7 +6,8 @@
   "main": "build/mybook.js",
   "scripts": {
     "start": "make run",
-    "build": "make build"
+    "install": "make install"
+    "test": "make test"
   },
   "repository": {
     "type": "git",
