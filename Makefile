@@ -7,6 +7,7 @@ ELECTRON_BIN = $(shell which electron)
 WEBPACK_BIN := $(NPM_BIN)/webpack
 
 RED=`tput setaf 1`
+RESET=`tput sgr0`
 
 START_APP := @$(ELECTRON_BIN) .
 
