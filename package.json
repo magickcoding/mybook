@@ -3,10 +3,10 @@
   "productName": "mybook.com",
   "version": "1.0.0",
   "description": "a app to write ebooks",
-  "main": "build/mybook.js",
+  "main": "build/desktop.js",
   "scripts": {
     "start": "make run",
-    "install": "make install"
+    "install": "make install",
     "test": "make test"
   },
   "repository": {

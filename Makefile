@@ -3,8 +3,8 @@ THIS_DIR := $(shell cd $(dir $(THIS_MAKEFILE_PATH));pwd)
 
 NPM ?= $(NODE) $(shell which npm)
 NPM_BIN = $(shell npm bin)
-ELECTRON_BIN = $(shell which electron)
 WEBPACK_BIN := $(NPM_BIN)/webpack
+ELECTRON_BIN = $(NPM_BIN)/electron
 
 RED=`tput setaf 1`
 RESET=`tput sgr0`

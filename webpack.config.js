@@ -12,7 +12,7 @@ var options = {
 	entry: './app/index.js',
 	output: {
 		path: path.join( __dirname, 'build' ),
-		filename: 'mybook.js',
+		filename: 'desktop.js',
 		libraryTarget: 'commonjs2'
 	}
 };
