@@ -1,27 +1,24 @@
 {
-  "name": "electron-quick-start",
+  "name": "mybook",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "a app to write ebooks",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/electron/electron-quick-start.git"
+    "url": "git+https://github.com/magickcoding/mybook.git"
   },
   "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial"
+    "ebook",
+    "mybook.com",
   ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "author": "MagickKing",
   "bugs": {
-    "url": "https://github.com/electron/electron-quick-start/issues"
+    "url": "https://github.com/magickcoding/mybook/issues"
   },
-  "homepage": "https://github.com/electron/electron-quick-start#readme",
+  "homepage": "https://github.com/magickcoding/mybook#readme",
   "devDependencies": {
     "electron-prebuilt": "^1.2.0"
   }
