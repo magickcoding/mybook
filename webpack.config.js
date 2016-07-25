@@ -12,7 +12,7 @@ var options = {
 	entry: './app/index.js',
 	output: {
 		path: path.join( __dirname, 'build' ),
-		filename: 'desktop.js',
+		filename: 'app.bundle.js',
 		libraryTarget: 'commonjs2'
 	}
 };
