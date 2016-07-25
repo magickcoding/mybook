@@ -13,7 +13,7 @@ START_APP := @$(ELECTRON_BIN) .
 
 NPMGTE3 := $(shell expr `npm -v | cut -f1 -d.` \>= 3)
 
-run:
+run: build
 	$(START_APP)
 # NPM
 install: node_modules
@@ -26,6 +26,10 @@ node_modules: package.json
 	@$(NPM) prune
 	@$(NPM) install
 	@touch node_modules
+
+build: install
+	@echo "begin to build"
+	@$(WEBPACK_BIN)
 
 test:
 	@$(WEBPACK_BIN) --display-error-details
